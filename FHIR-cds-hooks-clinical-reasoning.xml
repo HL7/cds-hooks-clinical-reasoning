@@ -50,6 +50,7 @@
 <page deprecated="true" key="use-case-cqm" name="Quality Measurement and Reporting"/>
 <page deprecated="true" key="query-management" name="Query Management"/>
 <page deprecated="true" key="patterns-service" name="Service Patterns"/>
+<page key="specification" name="Specification"/>
 <page key="toc" name="Table of Contents"/>
 <page deprecated="true" key="testing" name="Testing"/>
 <page deprecated="true" key="tooling-support" name="Tooling Support"/>

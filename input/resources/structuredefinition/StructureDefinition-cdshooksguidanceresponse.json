@@ -1,0 +1,88 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "cdshooksguidanceresponse",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cds"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
+  "url" : "http://hl7.org/fhir/uv/cds-hooks-clinical-reasoning/StructureDefinition/cdshooksguidanceresponse",
+  "name" : "CDSHooksGuidanceResponse",
+  "title": "CDS Hooks Guidance Response",
+  "status" : "active",
+  "experimental" : false,
+  "publisher" : "HL7",
+  "description" : "Defines a GuidanceResponse that represents the response container for a CDS Hooks response",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "GuidanceResponse",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/GuidanceResponse",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "GuidanceResponse",
+      "path" : "GuidanceResponse",
+      "min" : 1,
+      "max" : "1"
+    },
+    {
+      "id" : "GuidanceResponse.extension:cdsHooksEndpoint",
+      "path" : "GuidanceResponse.extension",
+      "sliceName" : "cdsHooksEndpoint",
+      "short" : "Service endpoint",
+      "definition" : "Defines the service endpoint for the behavior implemented by the GuidanceResponse.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/cqf-cdsHooksEndpoint"]
+      }]
+    },
+    {
+      "id" : "GuidanceResponse.requestIdentifier",
+      "path" : "GuidanceResponse.requestIdentifier",
+      "min" : 1,
+      "max" : "1"
+    },
+    {
+      "id" : "GuidanceResponse.identifier",
+      "path" : "GuidanceResponse.identifier",
+      "min" : 1,
+      "max" : "1"
+    },
+    {
+      "id" : "GuidanceResponse.moduleUri",
+      "path" : "GuidanceResponse.moduleUri",
+      "min" : 1,
+      "max" : "1"
+    },
+    {
+      "id" : "GuidanceResponse.subject",
+      "path" : "GuidanceResponse.subject",
+      "mustSupport" : true
+    },
+    {
+      "id" : "GuidanceResponse.occurrenceDateTime",
+      "path" : "GuidanceResponse.occurrenceDateTime",
+      "mustSupport" : true
+    },
+    {
+      "id" : "GuidanceResponse.performer",
+      "path" : "GuidanceResponse.performer",
+      "mustSupport" : true
+    },
+    {
+      "id" : "GuidanceResponse.result",
+      "path" : "GuidanceResponse.result",
+      "mustSupport" : true
+    }]
+  }
+}

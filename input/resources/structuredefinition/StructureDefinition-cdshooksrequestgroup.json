@@ -1,0 +1,123 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "cdshooksrequestgroup",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cds"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
+  "url" : "http://hl7.org/fhir/uv/cds-hooks-clinical-reasoning/StructureDefinition/cdshooksrequestgroup",
+  "name" : "CDSHooksRequestGroup",
+  "title" : "CDS Hooks Request Group",
+  "status" : "draft",
+  "experimental" : false,
+  "publisher" : "HL7",
+  "description" : "Defines a RequestGroup that can represent a CDS Hooks response",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "RequestGroup",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/RequestGroup",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "RequestGroup",
+      "path" : "RequestGroup",
+      "min" : 1,
+      "max" : "1"
+    },
+    {
+      "id" : "RequestGroup.identifier",
+      "path" : "RequestGroup.identifier",
+      "min" : 1,
+      "max" : "1"
+    },
+    {
+      "id" : "RequestGroup.instantiatesUri",
+      "path" : "RequestGroup.instantiatesUri",
+      "min" : 1,
+      "max" : "1"
+    },
+    {
+      "id" : "RequestGroup.priority",
+      "path" : "RequestGroup.priority",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.subject",
+      "path" : "RequestGroup.subject",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.authoredOn",
+      "path" : "RequestGroup.authoredOn",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.author",
+      "path" : "RequestGroup.author",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action",
+      "path" : "RequestGroup.action"
+    },
+    {
+      "id" : "RequestGroup.action.title",
+      "path" : "RequestGroup.action.title",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action.description",
+      "path" : "RequestGroup.action.description",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action.priority",
+      "path" : "RequestGroup.action.priority",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action.documentation",
+      "path" : "RequestGroup.action.documentation",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action.condition",
+      "path" : "RequestGroup.action.condition",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action.timing[x]",
+      "path" : "RequestGroup.action.timing[x]",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action.participant",
+      "path" : "RequestGroup.action.participant",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action.type",
+      "path" : "RequestGroup.action.type",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action.selectionBehavior",
+      "path" : "RequestGroup.action.selectionBehavior",
+      "mustSupport" : true
+    },
+    {
+      "id" : "RequestGroup.action.resource",
+      "path" : "RequestGroup.action.resource",
+      "mustSupport" : true
+    }]
+  }
+}
