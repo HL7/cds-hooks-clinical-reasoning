@@ -1,0 +1,1 @@
+Content for this implementation guide was originally included in the Decision Support Services topic of the base FHIR Specification.

@@ -1,0 +1,5 @@
+== Suppressed Messages ==
+
+# 1.0.0-ballot:01 - Accepted warnings about identifier hiding, reviewed and verified correct behavior
+%is hiding another identifier of the same name.
+

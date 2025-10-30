@@ -1,0 +1,54 @@
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">IG Home</a></li>
+  <li><a href="background.html">Background</a></li>
+  <li><a href="specification.html">Specification</a></li>
+  <li><a href="artifacts.html">FHIR Artifacts</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a target="_blank" href="{{site.data.fhir.path}}index.html">FHIR Spec</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://cds-hooks.hl7.org">CDS Hooks Spec</a>
+      </li>
+      <li>
+        <a target="_blank" href="{{site.data.fhir.path}}clinicalreasoning-module.html">FHIR Clinical Reasoning</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://cql.hl7.org/index.html">CQL Spec</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/uv/cql">Using CQL With FHIR</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/uv/crmi">Canonical Resource Management Infrastructure (CRMI)</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/uv/sdc">Structured Data Capture (SDC)</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://chat.fhir.org/#narrow/channel/179220-cql">Discussion Forum</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://confluence.hl7.org/spaces/CDS/pages/391652261/Using+FHIR+Clinical+Reasoning+with+CDS+Hooks">Project Page</a>
+      </li>
+      <!-- TODO: Update these links we have a JIRA spec artifact -->
+      <!--li>
+        <a target="_blank" href="https://jira.hl7.org/secure/Dashboard.jspa?selectPageId=17807">Specification Dashboard</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://jira.hl7.org/secure/CreateIssueDetails!init.jspa?pid=10405&amp;issuetype=10600&amp;customfield_11302=FHIR-us-cql">Propose a Change</a>
+      </li-->
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="license.html">License</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="changes.html">Changes</a></li>
+</ul>
