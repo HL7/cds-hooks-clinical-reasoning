@@ -5,6 +5,9 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact id="StructureDefinition/cdshooksguidanceresponse" key="StructureDefinition-cdshooksguidanceresponse" name="CDS Hooks Guidance Response"/>
+<artifact id="StructureDefinition/cdshooksrequestgroup" key="StructureDefinition-cdshooksrequestgroup" name="CDS Hooks Request Group"/>
+<artifact id="StructureDefinition/cdshooksserviceplandefinition" key="StructureDefinition-cdshooksserviceplandefinition" name="CDS Hooks Service Plan Definition"/>
 <artifact deprecated="true" id="Library/CumulativeMedicationDuration" key="Library-CumulativeMedicationDuration" name="Cumulative Medication Duration"/>
 <artifact deprecated="true" id="Library/CumulativeMedicationDurationTests" key="Library-CumulativeMedicationDurationTests" name="Cumulative Medication Duration Tests"/>
 <artifact deprecated="true" id="Questionnaire/GMTPQuestionnaire" key="Questionnaire-GMTPQuestionnaire" name="Example Genetic/Molecular Testing Preauthorization Questionnaire"/>

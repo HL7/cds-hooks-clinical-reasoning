@@ -39,16 +39,16 @@ This implementation guide is intended to be balloted in the May 2026 (the conten
 
 ### Dependencies
 
-{% include dependency-table-short-en.xhtml %}
+{% lang-fragment dependency-table-short.xhtml %}
 
 ### Cross Version Analysis
 
-{% include cross-version-analysis-en.xhtml %}
+{% lang-fragment cross-version-analysis.xhtml %}
 
 ### Global Profiles
 
-{% include globals-table-en.xhtml %}
+{% lang-fragment globals-table.xhtml %}
 
 ### IP Statements
 
-{% include ip-statements-en.xhtml %}
+{% lang-fragment ip-statements.xhtml %}
