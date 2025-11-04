@@ -152,6 +152,10 @@
       <code value="path-resource"/>
       <value value="input/resources/structuredefinition"/>
     </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources/conceptmap"/>
+    </parameter>
     <!-- Uncommented to use the 0.4.9-cibuild version of the templates -->
     <parameter>
       <code value="path-liquid-ig"/>

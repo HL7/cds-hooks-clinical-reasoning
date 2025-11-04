@@ -20,6 +20,7 @@
 <artifact deprecated="true" id="Library/MBODAInitialExpressions" key="Library-MBODAInitialExpressions" name="Expression Library for the Medical Benefit Outpatient Drug Authorization Example"/>
 <artifact deprecated="true" id="Library/MNACInitialExpressions" key="Library-MNACInitialExpressions" name="Expression Library for the Medical Necessity For Authorization Of Catheters Example"/>
 <artifact deprecated="true" id="Library/UPPARFInitialExpressions" key="Library-UPPARFInitialExpressions" name="Expression Library for the Uniform Pharmacy Prior Authorization Request Form Example"/>
+<artifact id="ConceptMap/cdshooks-indicator" key="ConceptMap-cdshooks-indicator" name="Indicator To Request Priority"/>
 <artifact id="Parameters/manifest" key="Parameters-manifest" name="Input Expansion Parameters"/>
 <artifact deprecated="true" id="Library/USCoreCommon" key="Library-USCoreCommon" name="US Core Common"/>
 <artifact deprecated="true" id="Library/USCoreCommonTests" key="Library-USCoreCommonTests" name="US Core Common Tests"/>
